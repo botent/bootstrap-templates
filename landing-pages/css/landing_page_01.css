@@ -1,0 +1,131 @@
+/* Establishing theme */
+
+:root{
+    --primary-bg: #FFF;
+    --main-theme-color: #2E86AB;
+    --secondary-theme-color: #565554;
+    --tertiary-theme-color: #F6F5AE;
+    --highlight-theme-color: #F24236;
+    --secondary-highlight-theme-color: #F5F749;
+    --active-state-color: #E94560;
+    --hover-state-color: #13739c;
+}
+
+/* Styling elements */
+
+html, body {
+    background-color: var(--primary-bg);
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Component Styles */
+
+.nav-item > .active{
+    background-color: var(--primary-bg) !important;
+    border-color: var(--main-theme-color) !important;
+    color: var(--active-state-color) !important;
+    border-radius: 8px;
+}
+
+.nav-link{
+    color: var(--main-theme-color) !important;
+}
+
+.nav-link:hover{
+    color: var(--highlight-theme-color) !important;
+}
+
+.btn-primary{
+    background-color: var(--main-theme-color) !important;
+    border-color: var(--main-theme-color) !important;
+}
+
+.btn-primary:hover{
+    background-color: var(--hover-state-color) !important;
+    border-color: var(--hover-state-color) !important;
+}
+
+.btn-outline-tertiary{
+    border: 1px solid var(--highlight-theme-color);
+}
+
+.btn-outline-tertiary:hover{
+    border: 1px solid var(--highlight-theme-color);
+    background-color: var(--active-state-color);
+    color: #fff;
+}
+/* Hero Wave Section */
+
+.waves {
+    position: relative;
+    width: 100%;
+    height: 25vh;
+    margin-bottom: -7px;
+    /*Fix for safari gap*/
+    min-height: 100px;
+    max-height: 250px;
+}
+
+
+/* Animation */
+.parallax>use {
+    animation: move-forever 45s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+
+.parallax>use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 10s;
+}
+
+.parallax>use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 15s;
+}
+
+.parallax>use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 18s;
+}
+
+.parallax>use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 5s;
+}
+
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(85px, 0, 0);
+    }
+}
+
+/* Hero Wave Section Ends */
+
+/* Features Section Starts */
+
+.feature__bg{
+    background-color: var(--primary-bg);
+    border-radius: 8px;
+}
+.card {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(245, 247, 73, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+/* Features Section Ends */
+
+/* Footer Starts */
+
+.footer{
+    background-color: var(--tertiary-theme-color);
+}
