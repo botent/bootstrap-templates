@@ -4,7 +4,7 @@
 Using Bootstrap 5, this repository has minimal templates for immediate consumption.
 
 ---
-![GitHub](https://img.shields.io/github/license/botent/andhera-css?style=for-the-badge) ![Twitter Follow](https://img.shields.io/twitter/follow/KumarPeri?logo=twitter&style=for-the-badge) ![Languages](https://img.shields.io/badge/HTML5-CSS-red?style=for-the-badge&logo=html5) [![Open in Visual Studio Code](https://img.shields.io/badge/Open_in-VSCode-red?style=for-the-badge&logo=visualstudiocode)](https://open.vscode.dev/organization/repository)
+![GitHub](https://img.shields.io/github/license/botent/andhera-css?style=for-the-badge) ![Twitter Follow](https://img.shields.io/twitter/follow/KumarPeri?logo=twitter&style=for-the-badge) ![Languages](https://img.shields.io/badge/HTML5-CSS-red?style=for-the-badge&logo=html5) [![Open in Visual Studio Code](https://img.shields.io/badge/Open_in-VSCode-red?style=for-the-badge&logo=visualstudiocode)](https://open.vscode.dev/botent/bootstrap-templates)
 
 This is a collection of fully responsive templates built using Bootstrap 5 and Custom CSS (with Vanilla JS wherever needed).
 
